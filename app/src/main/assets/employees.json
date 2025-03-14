@@ -1,0 +1,44 @@
+[
+  {
+    "name": "张三",
+    "department": "内科",
+    "position": "主任医师",
+    "officePhone": "0712-7236001",
+    "mobilePhone": "13876543210"
+  },
+  {
+    "name": "李四",
+    "department": "外科",
+    "position": "副主任医师",
+    "officePhone": "0712-7236002",
+    "mobilePhone": "13987654321"
+  },
+  {
+    "name": "王五",
+    "department": "儿科",
+    "position": "主治医师",
+    "officePhone": "0712-7236003",
+    "mobilePhone": "13765432109"
+  },
+  {
+    "name": "赵六",
+    "department": "妇产科",
+    "position": "住院医师",
+    "officePhone": "0712-7236004",
+    "mobilePhone": "13654321098"
+  },
+  {
+    "name": "钱七",
+    "department": "急诊科",
+    "position": "护士长",
+    "officePhone": "0712-7236005",
+    "mobilePhone": "13543210987"
+  },
+  {
+    "name": "孙八",
+    "department": "医院办公室",
+    "position": "职工",
+    "officePhone": "0712-7236494",
+    "mobilePhone": "13972660655"
+  }
+]

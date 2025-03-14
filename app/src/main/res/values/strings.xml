@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">xxxxx医院通讯录</string>
+    <string name="navigation_drawer_open">打开导航抽屉</string>
+    <string name="navigation_drawer_close">关闭导航抽屉</string>
+    <string name="nav_header_title">xxxxx医院</string>
+    <string name="nav_header_subtitle">医院通讯录</string>
+    <string name="nav_header_desc">导航头部</string>
+    <string name="action_settings">设置</string>
+
+    <string name="menu_home">通讯录</string>
+    <string name="menu_departments">科室分类</string>
+    <string name="menu_positions">职位分类</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_about">关于</string>
+    
+    <!-- 通讯录相关 -->
+    <string name="search_hint">搜索姓名或科室</string>
+    <string name="empty_search_result">没有找到匹配的员工</string>
+    <string name="loading_data">正在加载数据…</string>
+    <string name="error_loading_data">加载数据失败</string>
+    
+    <!-- 科室和职位相关 -->
+    <string name="all_departments">所有科室</string>
+    <string name="all_positions">所有职位</string>
+    <string name="empty_department">该科室暂无人员</string>
+    <string name="empty_position">该职位暂无人员</string>
+    
+    <!-- 设置相关 -->
+    <string name="settings_theme">主题设置</string>
+    <string name="settings_theme_light">浅色主题</string>
+    <string name="settings_theme_dark">深色主题</string>
+    <string name="settings_theme_system">跟随系统</string>
+    <string name="settings_font_size">字体大小</string>
+    <string name="settings_font_size_small">小</string>
+    <string name="settings_font_size_medium">中</string>
+    <string name="settings_font_size_large">大</string>
+    <string name="settings_font_size_extra_large">特大</string>
+    <string name="settings_save">保存设置</string>
+    <string name="settings_saved">设置已保存</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_contacts"
+            android:title="@string/menu_home" />
+        
+        <item
+            android:id="@+id/nav_departments"
+            android:icon="@drawable/ic_menu_department"
+            android:title="@string/menu_departments" />
+            
+        <item
+            android:id="@+id/nav_positions"
+            android:icon="@drawable/ic_menu_position"
+            android:title="@string/menu_positions" />
+    </group>
+    
+    <group android:id="@+id/group_tools">
+        <item
+            android:id="@+id/nav_import_contacts"
+            android:icon="@drawable/ic_menu_import"
+            android:title="导入通讯录" />
+            
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/menu_settings" />
+            
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_about"
+            android:title="@string/menu_about" />
+    </group>
+</menu>

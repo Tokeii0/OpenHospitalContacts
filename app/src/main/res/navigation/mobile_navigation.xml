@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="dog.ctf.contacts.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_departments"
+        android:name="dog.ctf.contacts.ui.departments.DepartmentsFragment"
+        android:label="@string/menu_departments"
+        tools:layout="@layout/fragment_departments">
+        <action
+            android:id="@+id/action_nav_departments_to_departmentDetailFragment"
+            app:destination="@id/departmentDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_positions"
+        android:name="dog.ctf.contacts.ui.positions.PositionsFragment"
+        android:label="@string/menu_positions"
+        tools:layout="@layout/fragment_positions">
+        <action
+            android:id="@+id/action_nav_positions_to_positionDetailFragment"
+            app:destination="@id/positionDetailFragment" />
+    </fragment>
+    
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="dog.ctf.contacts.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="dog.ctf.contacts.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+        
+    <fragment
+        android:id="@+id/departmentDetailFragment"
+        android:name="dog.ctf.contacts.ui.departmentdetail.DepartmentDetailFragment"
+        android:label="{departmentName}"
+        tools:layout="@layout/fragment_department_detail">
+        <argument
+            android:name="departmentName"
+            app:argType="string" />
+    </fragment>
+    
+    <fragment
+        android:id="@+id/positionDetailFragment"
+        android:name="dog.ctf.contacts.ui.positiondetail.PositionDetailFragment"
+        android:label="{positionName}"
+        tools:layout="@layout/fragment_position_detail">
+        <argument
+            android:name="positionName"
+            app:argType="string" />
+    </fragment>
+</navigation>

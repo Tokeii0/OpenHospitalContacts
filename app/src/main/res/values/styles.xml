@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义SearchView样式，移除底部黑线 -->
+    <style name="AppSearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:background">@drawable/search_background</item>
+        <item name="queryBackground">@android:color/transparent</item>
+        <item name="submitBackground">@android:color/transparent</item>
+    </style>
+</resources>
